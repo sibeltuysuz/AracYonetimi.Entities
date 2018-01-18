@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N-Tier Architecture", "N-Tier Architecture", "{03D3AB53-0EDB-4B4B-A9DF-4F003793822F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AracYonetim.Entities", "AracYonetim.Entities\AracYonetim.Entities.csproj", "{46E4349F-0DC8-4F6E-8B51-F3FFFC7EF2E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AracYonetim.DAL", "AracYonetim.DAL\AracYonetim.DAL.csproj", "{6B6AD11B-71D6-4702-AC69-F318CEF15F9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AracYonetim.BLL", "AracYonetim.BLL\AracYonetim.BLL.csproj", "{9F1F7523-1684-42A0-9D98-29FE0347B27B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AracYonetim.UI.WFA", "AracYonetim.UI.WFA\AracYonetim.UI.WFA.csproj", "{BA1321EB-62AF-48A3-91EB-3A12CE10954C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46E4349F-0DC8-4F6E-8B51-F3FFFC7EF2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E4349F-0DC8-4F6E-8B51-F3FFFC7EF2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E4349F-0DC8-4F6E-8B51-F3FFFC7EF2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E4349F-0DC8-4F6E-8B51-F3FFFC7EF2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6AD11B-71D6-4702-AC69-F318CEF15F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6AD11B-71D6-4702-AC69-F318CEF15F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6AD11B-71D6-4702-AC69-F318CEF15F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6AD11B-71D6-4702-AC69-F318CEF15F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F1F7523-1684-42A0-9D98-29FE0347B27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1F7523-1684-42A0-9D98-29FE0347B27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1F7523-1684-42A0-9D98-29FE0347B27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1F7523-1684-42A0-9D98-29FE0347B27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA1321EB-62AF-48A3-91EB-3A12CE10954C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1321EB-62AF-48A3-91EB-3A12CE10954C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1321EB-62AF-48A3-91EB-3A12CE10954C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1321EB-62AF-48A3-91EB-3A12CE10954C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46E4349F-0DC8-4F6E-8B51-F3FFFC7EF2E8} = {03D3AB53-0EDB-4B4B-A9DF-4F003793822F}
+		{6B6AD11B-71D6-4702-AC69-F318CEF15F9D} = {03D3AB53-0EDB-4B4B-A9DF-4F003793822F}
+		{9F1F7523-1684-42A0-9D98-29FE0347B27B} = {03D3AB53-0EDB-4B4B-A9DF-4F003793822F}
+		{BA1321EB-62AF-48A3-91EB-3A12CE10954C} = {03D3AB53-0EDB-4B4B-A9DF-4F003793822F}
+	EndGlobalSection
+EndGlobal
